@@ -1,16 +1,26 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #193a57;
+    background-color: #e8f5e9; /* Changed background */
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    color: #333;
+    color: #2e7d32; /* Updated heading color */
     text-align: center;
+    margin-top: 20px;
 }
 
 p {
-    color: #666;
+    color: #388e3c; /* Updated paragraph color */
     text-align: center;
+}
+
+a {
+    color: #1e88e5; /* Styled links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
